@@ -1150,7 +1150,8 @@ body{
     display: block;
     width: 16px;
     height: 15px;
-    border: 1px solid #212121;
+    border: 2px solid #212121;
+    border-radius: 4px;
     cursor: pointer;
     content: "";
     margin-right: 8px;
