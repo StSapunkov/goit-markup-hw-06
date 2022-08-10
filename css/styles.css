@@ -1047,6 +1047,7 @@ body{
 .modal-form{
     display: flex;
     flex-direction: column;
+    align-items: center;
 
             
 }
@@ -1156,10 +1157,11 @@ body{
 
 }
 
-.modal-form-check + .modal-form-check-desc::before{
-    background-color: var(--accent-color);
-    background-image: url(../images/Vector.jpg);
-
+.modal-form-check:checked + .modal-form-check-desc::before{
+    fill: #2196F3;
+    background-image: url(../images/symbol-defs.svg#icon-icon-check);
+    background-position: center;
+    
 }
 
 .visually-hidden{
@@ -1174,8 +1176,7 @@ body{
 }
 
 .modal-form-check:focus + .modal-form-check-desc::before {
-    background-color: var(--accent-color);
-    background-image: url(../images/Vector.jpg);
+    outline: #2196F3;
 }
 
 .modal-form-submit{
