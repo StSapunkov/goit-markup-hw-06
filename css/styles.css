@@ -1159,10 +1159,9 @@ body{
 }
 
 .modal-form-check:checked + .modal-form-check-desc::before{
-    
+    background-color: #188CE8;
     background-image: url(../images/symbol-defs.svg#icon-icon-check);
-    background-position: center;
-    
+        
 }
 
 .visually-hidden{
@@ -1178,7 +1177,7 @@ body{
 
 .modal-form-check:focus + .modal-form-check-desc::before {
     outline: none;
-    border-color: #2196F3;
+    border-color: var(--accent-color);
 }
 
 .modal-form-submit{
